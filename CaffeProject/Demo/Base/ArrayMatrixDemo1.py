@@ -1,7 +1,6 @@
 from numpy import *
 import sys
 
-cc = 1
 a = array([1, 2, 3])
 b = matrix(a)
 
