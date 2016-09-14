@@ -1,0 +1,8 @@
+数据库设计
+ID：id，主键
+URL：图片存在文件系统中的位置
+LAT：经度
+LON：纬度
+TEXT：文本信息
+CAMERA：相机信息
+OTHER：其它信息

@@ -1,0 +1,5 @@
+流程：
+创建一个新的空ImageSet类
+在SocialMediaImage文件中，根据现在的遥感图像坐标位置，从数据库中读取相关的社交网络照片编号，以及文件存储位置。编号从0开始。
+然后将ImageSet送到FeatureExtraction的CNN中提取特征，特征存放在对应类中。中间不再存储ImageArray。
+最后将ImageSet给Clustering进行聚类
